@@ -74,7 +74,7 @@ items:
             forcePull: true
             from:
               kind: DockerImage
-              name: radanalyticsio/radanalytics-pyspark:stable
+              name: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/rhpam-7/rhpam70-s2ipython-openshift:rhpam-7.0-s2ipython-openshift-rhel-7-containers-candidate-57256-20180809204112 
           type: Source
         triggers:
         - imageChange: {}
@@ -459,7 +459,7 @@ items:
             forcePull: true
             from:
               kind: DockerImage
-              name: radanalyticsio/radanalytics-java-spark:stable
+              name: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/rhpam-7/rhpam70-s2ijava-openshift:rhpam-7.0-s2ijava-openshift-rhel-7-containers-candidate-55526-20180810151402 
           type: Source
         triggers:
         - imageChange: {}
@@ -658,7 +658,7 @@ items:
             forcePull: true
             from:
               kind: DockerImage
-              name: radanalyticsio/radanalytics-scala-spark:stable
+              name: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/rhpam-7/rhpam70-s2iscala-openshift:rhpam-7.0-s2iscala-openshift-rhel-7-containers-candidate-67515-20180809204109 
           type: Source
         triggers:
         - imageChange: {}
@@ -994,7 +994,7 @@ items:
       - name: OSHINKO_WEB_IMAGE
         description: Full name of the oshinko web image
         required: true
-        value: radanalyticsio/oshinko-webui:stable
+        value: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/rhpam-7/rhpam70-webui-openshift:rhpam-7.0-webui-openshift-rhel-7-containers-candidate-18887-20180816174445 
       - name: OSHINKO_WEB_ROUTE_HOSTNAME
         description: The hostname used to create the external route for the webui
       - name: OSHINKO_REFRESH_INTERVAL
@@ -1133,7 +1133,7 @@ items:
       - name: OSHINKO_WEB_IMAGE
         description: Full name of the oshinko web image
         required: true
-        value: radanalyticsio/oshinko-webui:stable
+        value: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/rhpam-7/rhpam70-webui-openshift:rhpam-7.0-webui-openshift-rhel-7-containers-candidate-18887-20180816174445 
       - name: OSHINKO_WEB_ROUTE_HOSTNAME
         description: The hostname used to create the external route for the webui
       - name: OSHINKO_REFRESH_INTERVAL
