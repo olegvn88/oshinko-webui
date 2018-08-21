@@ -151,7 +151,7 @@ items:
       - name: OSHINKO_WEB_IMAGE
         description: Full name of the oshinko web image
         required: true
-        value: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/rhpam-7/rhpam70-webui-openshift:rhpam-7.0-webui-openshift-rhel-7-containers-candidate-49303-20180817195816 
+        value: brew-pulp-docker01.web.prod.ext.phx2.redhat.com:8888/rhpam-7/rhpam70-webui-openshift:rhpam-7.0-webui-openshift-rhel-7-containers-candidate-37293-20180820173650 
       - name: OSHINKO_WEB_ROUTE_HOSTNAME
         description: The hostname used to create the external route for the webui
       - name: OSHINKO_REFRESH_INTERVAL
