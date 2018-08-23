@@ -26,7 +26,7 @@ items:
     metadata:
       name: oshinko-py36-conf
     data:
-      sparkimage: radanalyticsio/openshift-spark-py36:2.3-latest
+      sparkimage: docker.io/tmckay/openshift-spark-py36:notini 
 
   - apiVersion: v1
     kind: Template
@@ -266,7 +266,7 @@ items:
             forcePull: true
             from:
               kind: DockerImage
-              name: radanalyticsio/radanalytics-pyspark-py36:stable
+              name: docker.io/tmckay/openshift-spark-py36:notini 
           type: Source
         triggers:
         - imageChange: {}
